@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "icon";
+  src: url('./fonts/icon.eot?#iefix');
+  src: url('./fonts/icon.svg#icon') format('svg'),
+      url('./fonts/icon.eot?#iefix') format('eot'),
+      url('./fonts/icon.ttf') format('truetype'),
+      url('./fonts/icon.woff') format('woff');
+}
+
+[class*=" icon-"],[class^=icon-] {
+  font-family: "icon";
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+
+.icon-me:before {
+  content: "\E001";
+}
+
+.icon-menu:before {
+  content: "\E002";
+}

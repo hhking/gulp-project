@@ -1,0 +1,3 @@
+@function rem($px) {
+  @return ($px/100)*1rem; //用乘法可以计算
+}
